@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auth/Registration</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-auth-registration.css">
+</head>
+
+<body>
+    <div class="split taskbar">
+        <div class="circle-column">
+            <img src="./logo.svg" alt="logo" id="logo">
+            <div class="round" style="background: rgb(234, 76, 137, 0.3);"></div>
+            <div class="round" style="background: rgb(234, 76, 137, 0.3);"></div>
+            <div class="round" style="background: rgb(234, 76, 137, 0.3);"></div>
+            <div class="round" style="background: rgba(228, 72, 72, 0.3);"></div>
+            <div class="round" style="background: rgb(228, 72, 72, 0.3);"></div>
+            <div class="round" style="background: rgb(228, 72, 72, 0.3);"></div>
+            <div class="round" style="background: rgb(18, 122, 189, 0.3);"></div>
+            <div class="round" style="background: rgb(18, 122, 189, 0.3);"></div>
+            <div class="round" style="background: rgb(18, 122, 189, 0.3);"></div>
+        </div>
+    </div>
+
+    <div class="split mainspace">
+        <div class="centerplace-wrapper">
+            <div class="formwrapper">
+                <form name="auth" class="formwrapper-inner">
+                    <h1>Авторизация</h1>
+                    <div class="auth-block">
+                        <div class="text-field text-field_floating-2">
+                            <input class="text-field__input" type="text" id="login" name="login" placeholder=" ">
+                            <label class="text-field__label" for="login">Login</label>
+                        </div>
+                        <div class="text-field text-field_floating-2">
+                            <input class="text-field__input" type="password" id="password" name="password"
+                                placeholder=" ">
+                            <label class="text-field__label" for="password">Password</label>
+                        </div>
+                    </div>
+                    <div class="buttonwrapper">
+                        <button class="but">
+                            Авторизоваться
+                        </button>
+                    </div>
+                </form>
+
+                <form name="reg" class="formwrapper-inner" onsubmit="subform()">
+                    <h1>Регистрация</h1>
+                    <div class="reg-block">
+                        <div class="text-field text-field_floating-2">
+                            <input class="text-field__input" type="text" id="lastname" name="lastname" placeholder=" ">
+                            <label class="text-field__label" for="lastname">Last Name</label>
+                        </div>
+
+                        <div class="text-field text-field_floating-2">
+                            <input class="text-field__input" type="text" id="firstname" name="firstname"
+                                placeholder=" ">
+                            <label class="text-field__label" for="firstname">First Name</label>
+                        </div>
+
+                        <div class="text-field text-field_floating-2">
+                            <input class="text-field__input" type="text" id="login" name="login" placeholder=" ">
+                            <label class="text-field__label" for="login">Login</label>
+                        </div>
+
+                        <div class="text-field text-field_floating-2">
+                            <input class="text-field__input" type="text" id="" name="email" placeholder=" ">
+                            <label class="text-field__label" for="email">Email</label>
+                        </div>
+
+                        <div class="text-field text-field_floating-2">
+                            <input class="text-field__input" type="password" id="password" name="password"
+                                placeholder=" ">
+                            <label class="text-field__label" for="password">Password</label>
+                        </div>
+
+                        <div class="text-field text-field_floating-2">
+                            <input class="text-field__input" type="password" id="password" name="password"
+                                placeholder=" ">
+                            <label class="text-field__label" for="password">Repeat password</label>
+                        </div>
+                    </div>
+                    <div class="buttonwrapper">
+                        <button class="but" type="submit">
+                            Зарегистрироваться
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./script.js"></script>
+
+</html>

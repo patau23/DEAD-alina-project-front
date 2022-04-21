@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="profile.css">
+</head>
+
+<body>
+    <div class="split taskbar">
+        <div class="circle-column">
+            <img src="./logo.svg" alt="logo" id="logo">
+            <div class="round" style="background: rgb(234, 76, 137, 0.3);"></div>
+            <div class="round" style="background: rgb(234, 76, 137, 0.3);"></div>
+            <div class="round" style="background: rgb(234, 76, 137, 0.3);"></div>
+            <div class="round" style="background: rgba(228, 72, 72, 0.3);"></div>
+            <div class="round" style="background: rgb(228, 72, 72, 0.3);"></div>
+            <div class="round" style="background: rgb(228, 72, 72, 0.3);"></div>
+            <div class="round" style="background: rgb(18, 122, 189, 0.3);"></div>
+            <div class="round" style="background: rgb(18, 122, 189, 0.3);"></div>
+            <div class="round" style="background: rgb(18, 122, 189, 0.3);"></div>
+        </div>
+    </div>
+
+    <div class="split mainspace">
+        <div class="split navigation">
+            <div class="external">
+                <h1>Разделы</h1>
+                <button class="but">+ Другие разделы</button>
+            </div>
+            <div class="internal">
+                <div class="scroller-wrapper">
+                    <!-- ТУТ ДОЛЖНЫ БЫТЬ: разделы для курсов(их совсем мало),  -->
+                    <div class="tabs-wrapper">
+                        <button class="tab" data-title="История казахстана и прочего дерьма которого мы никогда не узнаем если
+                        только вы не наведет курсор на эту кнопку">
+                            <p> История казахстана и прочего дерьма которого
+                                мы
+                                никогда не узнаем если
+                                только вы не наведет курсор на эту кнопку </p>
+                        </button>
+                        <button class="tab">
+                            <p>Коммутативная алгебра</p>
+                        </button>
+                        <button class="tab">
+                            <p>Математический анализ</p>
+                        </button>
+                        <button class="tab">
+                            <p>Алгебра</p>
+                        </button>
+                        <button class="tab">
+                            <p>Аналитическая геометрия</p>
+                        </button>
+                        <button class="tab">
+                            <p>Линейная алгебра и геометрия</p>
+                        </button>
+                        <button class="tab">
+                            <p>Дискретная математика</p>
+                        </button>
+                        <button class="tab">
+                            <p>Математическая логика</p>
+                        </button>
+                        <button class="tab">
+                            <p>Дифференциальные уравнения</p>
+                        </button>
+                        <button class="tab">
+                            <p>Дифференциальная геометрия</p>
+                        </button>
+                        <button class="tab">
+                            <p>Топология</p>
+                        </button>
+                        <button class="tab">
+                            <p>Функциональный анализ и интегральные уравнения</p>
+                        </button>
+                        <button class="tab">
+                            <p>Теория функций комплексного переменного</p>
+                        </button>
+                        <button class="tab">
+                            <p>Уравнения в частных производных </p>
+                        </button>
+                        <button class="tab">
+                            <p>Теория чисел</p>
+                        </button>
+                        <button class="tab">
+                            <p>Теория вероятностей</p>
+                        </button>
+                        <button class="tab">
+                            <p>Мат.статистика</p>
+                        </button>
+                        <button class="tab">
+                            <p>Теория случайных процессов</p>
+                        </button>
+                        <button class="tab">
+                            <p>Вычислительная математика</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="split content">
+            <div class="split maincontent">
+                <div class="tabname">
+                    <h3>Название Раздела</h3>
+                    <!-- ЗДЕСЬ ЕЩЕ ДОЛЖНО БЫТЬ ИНПУТ С ПОИСКОМ -->
+                </div>
+                <div class="tabcontent">
+                    <div class="cards-wrapper">
+                        <div class="card">
+                            <div class="main">
+                                <h1>Основы построения графов</h1>
+                                <button>Пройти</button>
+                            </div>
+                            <div class="creator"><a>Адильхан Касымханов</a></div>
+                            <div class="additional">
+                                <p class="created_at">12.12.12</p>
+                                <p class="price">3000</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="main">
+                                <h1>Название какого-то курса</h1>
+                                <button>Пройти</button>
+                            </div>
+                            <div class="creator"><a>Людмила Невзорова</a></div>
+                            <div class="additional">
+                                <p class="created_at">23.02.22</p>
+                                <p class="price">1500</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="main">
+                                <h1>Основы построения графиков функций</h1>
+                                <button>Пройти</button>
+                            </div>
+                            <div class="creator"><a>Георгий Закавицше</a></div>
+                            <div class="additional">
+                                <p class="created_at">11.02.19</p>
+                                <p class="price">900</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="info">
+                        <h1>useless information for something</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, nesciunt. Soluta dolores
+                            itaque sunt animi aliquid quod ratione nostrum assumenda sit, voluptatum laborum quas quae
+                            tempora quasi magnam dicta rem.</p>
+                        <div class="pagination">
+                            <- 1, 2, 3, 4, ..., 10 ->
+                                типа пагинация
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="split profile">
+                <!-- ТУТ БУДУТ ЗАПРОСЫ НА ПРОФИЛЬ, его информация, она должна быть записана -->
+
+            </div>
+        </div>
+    </div>3
+</body>
+
+</html>
